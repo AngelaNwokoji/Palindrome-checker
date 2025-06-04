@@ -1,0 +1,128 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2f4f4f;
+}
+main{
+    width: 500px;
+    margin: 100px auto;
+}
+h1{
+
+ 
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #d3d3d3;
+}
+  
+div{
+    
+    width: 500px;
+    margin-bottom: 30px;
+     border-radius: 20px;
+
+}
+.box1{
+    background-color: #669266;
+    height: auto;
+    padding: 20px;
+  box-shadow: 2px 2px #074407;
+  
+
+}
+.box2{
+    background-color: #696969;
+     box-shadow: 4px 4px #5c5959;
+     height: 150px;
+     text-align: center;
+     padding: 18px;
+
+}
+p{
+    font-size: 26px;
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}input{
+    width: 300px;
+    height: 70px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px #a19fad;
+}
+.result{
+    padding: 10px;
+    margin: 10px 20px ;
+    font-size: 30px;
+    font-weight: 550;
+    font-family: "Vollkorn", serif;
+    display: inline-block;
+    height: auto;
+    width: 400px;
+    overflow-wrap: break-word;
+    min-height: 20px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width : 500px) {
+    main{
+    width: 300px;
+    margin: 50px auto;
+}
+h1{
+  font-size: 32px;
+  padding-bottom: 20px;
+  color: #d3d3d3;
+}
+h2{
+    font-size: 20px;
+}
+div{ 
+    width: 300px;
+}
+.box1{
+    
+    padding: 10px;
+  box-shadow: 2px 2px #074407;
+  
+
+}
+.box2{
+     height: auto;
+     padding: 10px;
+
+}
+p{
+    font-size: 20px;
+
+}input{
+    width: 150px;
+    height: 40px;
+}
+button{
+    width: 70px;
+    height: 25px;
+}
+.result{
+    font-size: 20px;
+    width: 200px;
+    overflow-wrap: break-word;
+    min-height: 20px;
+}
+}
