@@ -11,6 +11,8 @@ function checkWord(str) {
 
 function checkBox () {
     const userInput = box.value.trim();
+console.log(checkWord(userInput));
+
 
     if (userInput === '') {
         alert("Please input a value");
@@ -24,6 +26,12 @@ function checkBox () {
 }
 
 btn.addEventListener("click", checkBox);
+
+box.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        checkBox();
+    }
+});
 
 
 
